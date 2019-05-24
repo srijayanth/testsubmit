@@ -1,6 +1,6 @@
 oldpwd=`pwd`
 actual_dir=$(basename `pwd`)
-url="http://10.132.20.23:8090/submit"
+url="http://bcfbb1ad.ngrok.io/submit"
 cd ..
 tar cvfz ./submission.tar.gz ${actual_dir}
 username=`whoami`
